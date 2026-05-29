@@ -124,9 +124,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     background: linear-gradient(135deg, var(--diamond-white) 0%, var(--tiffany-pale) 100%);
-    margin: -2rem -2rem 0 -2rem;
     padding: 2rem;
-    gap: 3rem;
+    gap: 2rem;
     align-items: center;
 }
 
@@ -134,10 +133,10 @@
     background: var(--white);
     border-radius: var(--border-radius-large);
     box-shadow: 0 20px 60px rgba(0,0,0,0.1);
-    padding: 3rem;
-    max-width: 500px;
+    padding: 2.5rem;
+    max-width: 560px;
     width: 100%;
-    justify-self: end;
+    justify-self: center;
     border: 1px solid var(--light-gray);
 }
 
@@ -516,7 +515,6 @@
 @media (max-width: 768px) {
     .auth-container {
         padding: 1rem;
-        margin: -1rem -1rem 0 -1rem;
     }
     
     .auth-card {
